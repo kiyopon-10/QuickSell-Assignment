@@ -76,7 +76,7 @@ const TicketBoard = ({ groupBy, sortBy }) => {
     return (
       <div className="ticket-board"
         style={{
-          display: "flex", justifyContent: "space-evenly", gap: "1rem", alignItems: "flex-", backgroundColor: "#e4e6eb",
+          position: "absolute", display: "flex", justifyContent: "space-evenly", gap: "1rem", backgroundColor: "#e4e6eb",
           fontFamily: '"Average", serif'
         }}
       >
